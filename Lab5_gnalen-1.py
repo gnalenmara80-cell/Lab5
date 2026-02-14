@@ -35,3 +35,8 @@ def get_term(d1, d2, total):
     print("Welcome to the dice roll term generator!")
     while True:
         input("Press Enter to roll the dice...")
+        die1 = random.randint(1, 6)
+        die2 = random.randint(1, 6)
+        total = die1 + die2
+        print(f"\nYou rolled a {die1} and a {die2}")
+        print(f"Total: {total}")
