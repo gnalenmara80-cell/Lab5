@@ -32,4 +32,6 @@ def get_term(d1, d2, total):
         return "BoxCars"
     else:
         return "No special term"
-    
+    print("Welcome to the dice roll term generator!")
+    while True:
+        input("Press Enter to roll the dice...")
